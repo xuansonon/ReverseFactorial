@@ -10,17 +10,28 @@ java reverseFactorial a b c d e etc.
 A, B, C, D, E, etc. are the arguments that users can input. This application allows for any number of arguments.
 <br />
 <br />
-### Example Input and Output ###
+### Example Input and Outputs ###
 ```
 java reverseFactorial 120 873 6
 ```
 The above command will return the following output:
 ```
-Reverse factorial of 120 is: 5!
+Reverse factorial of 120: 5!
 873 is not a factorial result.
-Reverse factorial of 6 is: 3!
+Reverse factorial of 6: 3!
+```
+<br />
+```
+java reverseFactorial 120 3 a 24
+```
+The above command will return the following output:
+```
+Reverse factorial of 120: 5!
+3 is not a factorial result.
+a is an invalid integer. Required: Integer.
+Reverse factorial 24: 4!
 ```
 ### Still to do ###
 - ~~Implement threads to allow for multiple arguments~~
 - Fix the concurrent thread order (it is current not in order of input)
-- Implement proper input validation (entire application terminates if any argument is invalid)
+- ~~Implement proper input validation (entire application terminates if any argument is invalid)~~
