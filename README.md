@@ -2,7 +2,7 @@
 A simple Java-based console application that finds a factorial value for a certain inputted value. If the inputted value does not have a factorial value, the application will return a message indiciating that it does not have a valid factorial operation associated with that input value.
 <br />
 <br />
-**How to operate the application**
+**How to operate the application**<br />
 Prior to usage users will need to have the Java SDK (version 1.8.0_102 as of 25-Nov) on their computer. The application relies on arguments at start so users will need to input numbers along with the starting command:
 ```
 java reverseFactorial a b c d e etc.
@@ -32,6 +32,6 @@ a is an invalid integer. Required: Integer.
 Reverse factorial 24: 4!
 ```
 **Still to do**
-- [X} ~~Implement threads to allow for multiple arguments~~
+- [X] ~~Implement threads to allow for multiple arguments~~
 - [ ] Fix the concurrent thread order (it is current not in order of input)
 - [X] ~~Implement proper input validation (entire application terminates if any argument is invalid)~~
